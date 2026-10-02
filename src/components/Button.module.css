@@ -1,0 +1,38 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+  min-height: 50px;
+  padding: 16px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: var(--line-height);
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.primary {
+  background: var(--gray-200);
+  color: var(--white);
+}
+
+.secondary {
+  background: transparent;
+  color: var(--gray-100);
+  border: 1px solid var(--gray-100);
+}
+
+.danger {
+  background: transparent;
+  color: var(--gray-100);
+  border: 1px solid var(--gray-100);
+}

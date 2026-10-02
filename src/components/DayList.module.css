@@ -1,0 +1,23 @@
+.dayList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.date {
+  margin: 0;
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: var(--line-height);
+  color: var(--gray-100);
+  white-space: nowrap;
+}
+
+.meals {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}

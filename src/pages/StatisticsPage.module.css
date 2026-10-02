@@ -1,0 +1,90 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 0 24px 34px;
+}
+
+.positive {
+  background: var(--green-light);
+}
+
+.negative {
+  background: var(--red-mid);
+}
+
+.percent {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: var(--line-height);
+  color: var(--gray-100);
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 14px;
+  color: var(--gray-200);
+  line-height: var(--line-height);
+}
+
+.panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 32px 24px;
+  background: var(--gray-700);
+  border-radius: 20px 20px 0 0;
+  margin-top: -8px;
+}
+
+.heading {
+  margin: 0 0 12px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--gray-100);
+}
+
+.cardWide,
+.cardHalf {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 16px;
+  border-radius: 8px;
+  background: #eff0f0;
+  text-align: center;
+}
+
+.cardWide strong,
+.cardHalf strong {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--gray-100);
+  line-height: var(--line-height);
+}
+
+.cardWide span,
+.cardHalf span {
+  font-size: 14px;
+  color: var(--gray-200);
+  line-height: var(--line-height);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.on {
+  background: var(--green-light);
+}
+
+.off {
+  background: var(--red-mid);
+}

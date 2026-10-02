@@ -1,0 +1,108 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 8px 24px 32px;
+  flex: 1;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.field span,
+.fieldset legend {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--gray-200);
+}
+
+.field input,
+.field textarea {
+  width: 100%;
+  border: 1px solid var(--gray-500);
+  border-radius: 6px;
+  padding: 14px;
+  font: inherit;
+  color: var(--gray-100);
+  background: transparent;
+  resize: vertical;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.dietRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.dietOption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 50px;
+  border: none;
+  border-radius: 6px;
+  background: #eff0f0;
+  font: inherit;
+  font-weight: 700;
+  color: var(--gray-100);
+  cursor: pointer;
+}
+
+.dietOnActive {
+  border: 1px solid var(--green-dark);
+  background: var(--green-light);
+}
+
+.dietOffActive {
+  border: 1px solid #bf3b44;
+  background: var(--red-mid);
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.on {
+  background: var(--green-dark);
+}
+
+.off {
+  background: #bf3b44;
+}
+
+.footer {
+  margin-top: auto;
+  padding-top: 16px;
+}
+
+.error,
+.missing {
+  margin: 0;
+  color: #bf3b44;
+  font-size: 14px;
+}
+
+.missing {
+  padding: 24px;
+}

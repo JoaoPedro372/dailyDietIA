@@ -1,0 +1,59 @@
+.meal {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 14px 16px 14px 12px;
+  border: 1px solid var(--gray-500);
+  border-radius: 6px;
+  background: transparent;
+  overflow: hidden;
+  text-align: left;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.time {
+  flex-shrink: 0;
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: var(--line-height);
+  color: var(--gray-100);
+  white-space: nowrap;
+}
+
+.divider {
+  flex-shrink: 0;
+  display: block;
+}
+
+.name {
+  flex: 1 1 0;
+  min-width: 0;
+  height: 21px;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: var(--line-height);
+  color: var(--gray-200);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.statusDot {
+  flex-shrink: 0;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+}
+
+.on {
+  background: var(--green-mid);
+}
+
+.off {
+  background: var(--red-mid);
+}

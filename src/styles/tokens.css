@@ -1,0 +1,14 @@
+:root {
+  --gray-100: #1b1d1e;
+  --gray-200: #333638;
+  --gray-400: #b9bbbc;
+  --gray-500: #dddedf;
+  --gray-700: #fafafa;
+  --white: #ffffff;
+  --green-dark: #639339;
+  --green-mid: #cbe4b4;
+  --green-light: #e5f0db;
+  --red-mid: #f3babd;
+  --font-family: "Nunito Sans", sans-serif;
+  --line-height: 1.3;
+}
